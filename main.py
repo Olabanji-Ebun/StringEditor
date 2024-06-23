@@ -45,7 +45,7 @@ def process_commands(initial_string):
         elif command == 'Z':
             current_string = undo(history)
 
-        print(f"Current string: {current_string}")
+        # print(f"Current string: {current_string}")
 
     print(f"Final output: {current_string}")
 
